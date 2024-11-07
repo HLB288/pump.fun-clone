@@ -1,0 +1,47 @@
+# Node modules
+node_modules/
+/node_modules
+*/node_modules
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Hardhat files
+cache/
+artifacts/
+typechain-types/
+coverage/
+coverage.json
+
+# Frontend build files
+build/
+dist/
+.next/
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.DS_Store
+*.pem
+
+# Add the following to your .gitignore if not already present
+.env
+*/.env
+node_modules/
+*/node_modules
+.DS_Store
+*/.DS_Store
+/blockchain/artifacts
+/blockchain/cache
+/blockchain/hardhat.config.js
